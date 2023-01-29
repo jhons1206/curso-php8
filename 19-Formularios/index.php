@@ -20,7 +20,17 @@
         <input type="number" name="edad">
     </label>
 
-    <p>Sexo:</p>
+    <p>Nivel Educativo:</p>
+
+    <select name="educacion">
+        <option value="Inicial">Inicial</option>
+        <option value="Primaria">Primaria</option>
+        <option value="Sedundaria">Sedundaria</option>
+        <option value="Superior">Superior</option>
+    </select>
+
+    <br>
+    <br>
 
     <label>
         <input type="radio" name="sexo" value="Masculino">
@@ -60,6 +70,14 @@
     </label>
 
     <br>
+    <br>
+
+    <label>Mensaje:</label>
+
+    <br>
+
+    <textarea name="mensaje" cols="35" rows="8"></textarea>
+
     <br>
 
     <button type="submit">Enviar</button>
