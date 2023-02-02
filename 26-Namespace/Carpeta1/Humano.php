@@ -1,5 +1,6 @@
 <?php
-// Namespace
+
+namespace Carpeta1;
 
 class Humano {
     public function saludar() {
